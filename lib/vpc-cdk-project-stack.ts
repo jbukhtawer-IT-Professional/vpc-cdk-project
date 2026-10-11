@@ -1,6 +1,6 @@
 import * as cdk from 'aws-cdk-lib/core';
 import { Construct } from 'constructs';
-import * as ec2 from 'aws-cdk-lib/aws-ec2'
+import * as ec2 from 'aws-cdk-lib/aws-ec2';
 
 export class VpcCdkProjectStack extends cdk.Stack {
   public readonly vpc: ec2.Vpc
